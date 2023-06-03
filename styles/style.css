@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Geologica & family= Roboto+Slab:wght@700 & display=swap');
+:root{
+    --cor-principal:#000000;
+    --cor-secundaria : #f6f6f6;
+    --cor-terciaria :  #FFFF00;
+    --cor-quarta: #272727;
+}
+*{ 
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing:border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+.em-cima{
+    padding: 2% 0%  0%  15% ;
+}
+.em-cima-1{
+    display: flex;
+    gap: 80px;
+}
+.em-cima-2{
+    font-family:'Geologica', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--cor-terciaria);
+    text-decoration: none;
+
+}
+
+.apresentacao {
+    padding: 4% 14% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+}
+
+.apresentacao-conteudo { 
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 3.125rem;
+    font-family: 'Geologica', sans-serif;
+
+}
+.titulo-destaque { color:var(--cor-terciaria);
+}
+
+.apresentacao-conteudo-textinho{
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+    .apresentacao-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+.apresentacao-links-subtitulo{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+
+}
+.imagem{
+    width: 50%;
+}
+    .apresentacao-links-1 {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px dotted var(--cor-terciaria);
+        width: 50%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        padding: 21px 0;
+        color:floralwhite;
+        font-family:  'Indie Flower', cursive;
+    }
+    .apresentacao-links-1:hover {
+        background-color: var(--cor-quarta);
+       
+    }
+
+.embaixo{
+    padding: 24px;
+    color:var(--cor-terciaria);
+    background-color: var(--cor-quarta);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Geologica', sans-serif;
+    
+}
+@media (max-width: 1200px){
+.apresentacao{
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+.em-cima{
+    padding: 10%;
+}
+.em-cima-1{
+   justify-content: center;
+}
+.apresentacao-conteudo{
+    width: auto;
+}
+}
+
+
+    
